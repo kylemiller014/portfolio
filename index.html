@@ -55,7 +55,111 @@
         </nav>
     </header>
     <main>
-        
+               <section id="profile">
+            <div class="section_pic_container">
+                <img src="./assets/profile.png" alt="Kyle Miller Profile Picture" />
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title_1">Kyle Miller</h1>
+                <p class="section_text_p2">Data Scientist</p>
+                <div class="btn_container">
+                    <button class="btn_color" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section_text_p1">A Quick Summary</p>
+            <h1 class="title_2">Of Kyle Miller</h1>
+            <div class="text_container">
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </section> 
+        <section id="proficiencies">
+            <p class="section_text_p1">A Few of My</p>
+            <h1 class="title_2">Proficiencies</h1>
+            <div class="text_container">
+                <p>Talk about my proficiencies in data analysis, machine learning, and visualization tools.</p>
+            </div>
+            <div class="article_container">
+                <article>
+                    <img src="./assets/data-analysis.png" alt="Data Analysis Icon" class="icon"/>
+                    <div>
+                        <h3>Data Analysis</h3>
+                        <p>Data Analysis cool stuff.</p>
+                    </div>
+                </article>
+                <!-- Add more articles for other proficiencies -->
+            </div>
+        </section>
+        <section id="projects">
+            <p class="section_text_p1">Some of My</p>
+            <h1 class="title_2">Projects</h1>
+            <div class="details_container">
+                <div class="details_container color_container">
+                    <div class="subdetail_container">
+                        <img src="./assets/project1.png" alt="Project 1" class="project_image"/>
+                        <h2 class="projects_subtitle">Project 1</h2>
+                        <p class="projects_description">Description of Project 1.</p>
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn" 
+                            onclick="location.href='https://medium.com/@kylemiller'">View Project</button>
+                        </div>
+                    </div>
+                    <!-- Add more subdetail containers for other projects -->
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="title_2">Contact Me</h1>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button class="submit-button" onclick="sendMail()">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <p>Kyle  Miller</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Florida</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kylemiller014@gmail.com">kylemiller014@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://www.linkedin.com/in/kyle-d-miller" target="_blank">
+                            <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Kyle Miller | 2026 | kylemiller014@gmail.com</p>
+        </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
