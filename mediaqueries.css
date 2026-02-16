@@ -15,7 +15,7 @@
     #hamburger-nav {
         display: flex;
     }
-    #experience, .experience-details-container {
+    #work-experience, .experience-details-container {
         margin-top: 2rem;
     }
     #about {
@@ -110,10 +110,10 @@
         font-size: 0.9rem;
         line-height: 1.4;
     }
-    #about, #proficiencies, #other-platforms {
+    #about, #certifications {
         padding: 0 0;
     }
-    #proficiencies {
+    #certifications {
         margin-top:5rem;
     }
     #projects {
