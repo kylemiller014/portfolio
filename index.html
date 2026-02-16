@@ -22,13 +22,13 @@
         <nav id="nav">
             <div class="header">
                 <div class="logo">
-                    <img src="./assets/miller_logo.png" alt = "Kyle Miller">
+                    <img src="./assets/square_logo.png" alt = "Kyle Miller">
                 </div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#proficiencies">Proficiencies</a></li>
+                    <li><a href="#work-experience">About</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#other-platforms">Other Platforms</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -41,14 +41,11 @@
                 <div class="hamburger-menu">
                     <div class="hamburger-icon" onclick="toggleMenu()">
                         <span></span>
-                        <span></span>
-                        <span></span>
                     </div>
                     <div class="menu-links">
                         <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                        <li><a href="#proficiencies" onclick="toggleMenu()">Proficiencies</a></li>
-                        <!-- Add Certifications section here - will need to proliferate throughout-->
-                         <!-- Add Work Experience section here - will need to proliferate throughout-->
+                        <li><a href="#work-experience" onclick="toggleMenu()">Work Experience</a></li>
+                        <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
                         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                         <li><a href="#other-platforms" onclick="toggleMenu()">Other Platforms</a></li>
                         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -60,10 +57,10 @@
     <main>
                <section id="profile">
             <div class="section_pic_container">
-                <img src="./assets/profile.png" alt="Kyle Miller Profile Picture" />
+                <img src="./assets/profile.jpeg" alt="Kyle Miller Profile Picture" width="500" height="500"/>
             </div>
             <div class="section_text">
-                <p class="section_text_p1">Hello, I'm</p>
+                <p class="section_text_p1">Hey, I'm</p>
                 <h1 class="title_1">Kyle Miller</h1>
                 <p class="section_text_p2">Data Scientist</p>
                 <div class="btn_container">
@@ -73,50 +70,148 @@
                 </div>
             </div>
         </section>
+        <!-- About-->
         <section id="about">
-            <p class="section_text_p1">A Quick Summary</p>
-            <h1 class="title_2">Of Kyle Miller</h1>
+            <p class="section_text_p1">A Quick</p>
+            <h1 class="title_2">Summary</h1>
             <div class="text_container">
-                <p></p>
-                <p></p>
-                <p></p>
+                <!-- Could probably add some more information here about what I'm, looking for or interested in-->
+                <p>Analytical professional with 5+ years of experience as a Department of Defense (DoD) contractor, specializing in quantitative data analysis and military systems assessment.</p>
+                <p> Proficient in MySQL, R, Python, and Excel to create data visualizations and deliver actionable insights. Passionate about applying data science expertise to solve complex problems.</p>
             </div>
         </section> 
-        <section id="proficiencies">
-            <p class="section_text_p1">A Few of My</p>
-            <h1 class="title_2">Proficiencies</h1>
-            <div class="text_container">
-                <p>Talk about my proficiencies in data analysis, machine learning, and visualization tools.</p>
-            </div>
+        <!-- Work Experience -->
+         <section id="work-experience">
+            <p class="section_text_p1">Previous Relevant</p>
+            <h1 class="title_2">Work Experience</h1>
             <div class="article_container">
-                <article>
-                    <img src="./assets/data-analysis.png" alt="Data Analysis Icon" class="icon"/>
+                <!-- Data Scientist T3 -->
+                <article> 
+                    <img src="./assets/leidos.png" alt = "Leidos" class="icon"/>
                     <div>
-                        <h3>Data Analysis</h3>
-                        <p>Data Analysis cool stuff.</p>
+                        <h2>Data Scientist T3</h2>
+                        <h3>Leidos</h3>
+                        <h4>Eglin AFB, FL | Nov. 2023 - Present</h4>
+                        <ul>
+                            <li>Apply an analytical framework to develop Critical Operational Issues (COI) against military systems and technologies. COIs were then further decomposed into Measures of Effectiveness (MOE), Measures of Suitability (MOS), and Measures of Performance (MOP) based on assessment objectives.</li>
+                            <li>Design and implement custom data processors in C# to clean, tag, and categorize system data, improving accuracy and efficiency in meeting analytical objectives.</li>
+                            <li>Develop custom R scripts to calculate key performance metrics and generate clear, concise graphics, enhancing the clarity and effectiveness of analytical reports.</li>
+                            <li>Configure relational databases: design schemas/tables, develop triggers, and optimize views to support data analysis.</li>
+                            <li>Develop and implement data management plans to verify and validate data collected during assessment events.</li>
+                            <li>Act as a primary author for analysis and assessment products to include technical reports, senior level PowerPoint briefings, and data management plans. </li>
+                        </ul>
                     </div>
                 </article>
-                <!-- Add more articles for other proficiencies -->
+                <!-- Data Scientist T2 -->
+                <article> 
+                    <img src="./assets/leidos.png" alt = "Leidos" class="icon"/>
+                    <div>
+                        <h2>Data Scientist T2</h2>
+                        <h3>Leidos</h3>
+                        <h4>Eglin AFB, FL | Sep. 2022 - Nov. 2023</h4>
+                        <ul>
+                            <li>Provide contract support for the Joint Staff (JS) J6 Joint Assessment Division (JAD) as an operations analyst/data scientist in the Joint Operations Assessment Branch (JOAB)</li>
+                            <li>Developed and maintained a Shiny web application enabling near real time analysis of military exercise data.</li>
+                            <li>Automated data acquisition using PowerShell and REST APIs, increasing efficiency in operational assessments.</li>
+                            <li>Built Excel-based data collection tools using VBA for real-time logging by field personnel.</li>
+                            <li>Delivered concise, high-impact reports and briefings tailored to senior leaders and technical stakeholders.</li>
+                        </ul>
+                    </div>
+                </article>
+                <!-- Avnik -->
+                <article> 
+                    <img src="./assets/avnik.png" alt = "Avnik Defense Solutions" class="icon"/>
+                    <div>
+                        <h2>Systems Engineer</h2>
+                        <h3>Avnik Defense Solutions, Inc.</h3>
+                        <h4>Redstone Arsenal, AL | Dec. 2019 - Jul. 2022</h4>
+                        <ul>
+                            <li>Contract engineer for the Army Combat Capabilities Development Command (CCDC) Aviation Missile Center (AvMC) in the Logistics Engineering Laboratory (LogLab).</li>
+                            <li>Spearheaded sustainment simulation development, enhancing the System of Systems Analysis Toolset (SoSAT).</li>
+                            <li>Bridged gaps between subject matter experts and developers to analyze and evaluate aircraft performance requirements.</li>
+                            <li>Facilitated strategy meetings with cross-functional teams, aligning deliverables with customer needs.</li>
+                            <li>Presented actionable insights via polished briefings to leadership and technical deep dives for engineering teams.</li>
+                            <li>Mentored junior engineers and coordinated multiple project timelines to ensure timely delivery.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+         </section>
+        <!-- Certifications -->
+        <section id="certifications">
+            <p class="section_text_p1">A Few of My</p>
+            <h1 class="title_2">Certifications</h1>
+            <div class="article_container">
+                <article>
+                    <img src="./assets/securityPlus.png" alt="CompTIA Security Plus Icon" class="icon"/>
+                    <div>
+                        <h3>CompTIA Security+</h3>
+                        <h4>January 2026 - January 2029</h4>
+                        <p>Leveraged knowledge learned via the CompTIA Security+ certification to increase my understanding and adherence to cyber security regulations.</p>
+                    </div>
+                </article>
+                                <article>
+                    <img src="./assets/azureFundamentals.png" alt="Microsoft Azure Fundamentals Icon" class="icon"/>
+                    <div>
+                        <h3>Microsoft Azure Fundamentals</h3>
+                        <h4>January 2023</h4>
+                        <p>Microsoft Azure Fundamentals provided the baseline infromation I required to begin working in an Azure Cloud enviornment.</p>
+                    </div>
+                </article>
+                <!-- Add more articles for other certifications -->
             </div>
         </section>
+        <!-- Projects-->
         <section id="projects">
-            <p class="section_text_p1">Some of My</p>
+            <p class="section_text_p1">A Selection of Some of My</p>
             <h1 class="title_2">Projects</h1>
             <div class="details_container">
                 <div class="details_container color_container">
+                    <!-- MLB API Part #1-->
                     <div class="subdetail_container">
-                        <img src="./assets/project1.png" alt="Project 1" class="project_image"/>
-                        <h2 class="projects_subtitle">Project 1</h2>
-                        <p class="projects_description">Description of Project 1.</p>
+                        <img src="./assets/mlbAPI_part1.png" alt="MLB API Part #1" width="500" height="500" class="project_image"/>
+                        <h2 class="projects_subtitle">Part 1: Making Sense of MLB's API - A Step-by-Step Guide in R</h2>
+                        <p class="projects_description">The first installment of my deep dive into the official Major League Baseball (MLB) API. Part I establishes the initial R Shiny application.</p>
                         <div class="btn_container">
                             <button class="btn btn_color project_btn" 
-                            onclick="location.href='https://medium.com/@kylemiller'">View Project</button>
+                            onclick="location.href='https://medium.com/@kylemiller014/part-1-making-sense-of-mlbs-api-a-step-by-step-guide-in-r-d189b2bf4ddf'">View Project</button>
                         </div>
                     </div>
-                    <!-- Add more subdetail containers for other projects -->
+                    <!-- MLB API Part #2-->
+                    <div class="subdetail_container">
+                        <img src="./assets/mlbAPI_part2.png" alt="MLB API Part #2" width="500" height="500" class="project_image"/>
+                        <h2 class="projects_subtitle">Part II: Visualizing Real Time MLB Game Updates in Shiny - A Step-by-Step Guide in R</h2>
+                        <p class="projects_description">The second installment of my deep dive into the official Major League Baseball (MLB) API. Part II builds upon part I by adding some visualization.</p>
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn" 
+                            onclick="location.href='https://medium.com/@kylemiller014/part-ii-visualizing-real-time-mlb-game-updates-in-shiny-a-step-by-step-guide-in-r-2baf1557b65d'">View Project</button>
+                        </div>
+                    </div>
+                <!-- Melt() -->
+                    <div class="subdetail_container">
+                        <img src="./assets/melt.png" alt="melt()" width="500" height="500" class="project_image"/>
+                        <h2 class="projects_subtitle">The Dangers of Coding on an Empty Stomach: Simplifying melt() and Sorting with ggplot()</h2>
+                        <p class="projects_description">A simplistic tutorial of the melt() function using worldiwde video game sales data.</p>
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn" 
+                            onclick="location.href='https://medium.com/@kylemiller014/the-dangers-of-coding-on-an-empty-stomach-simplifying-melt-and-sorting-with-ggplot-f59b9f8abe76'">View Project</button>
+                        </div>
+                    </div>
+                    <!-- grViz() -->
+                    <div class="subdetail_container">
+                        <img src="./assets/grViz.png" alt="grViz()" width="500" height="500" class="project_image"/>
+                        <h2 class="projects_subtitle">Stop Troubleshooting, Start Automating: Graphviz in R</h2>
+                        <p class="projects_description">From CSV to Diagram: a complete R automation workflow for grViz()</p>
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn" 
+                            onclick="location.href='https://medium.com/@kylemiller014/stop-troubleshooting-start-automating-grviz-graphs-in-r-b796ebbdf2b4'">View Project</button>
+                        </div>
+                    </div>
+                    <!-- Project X... -->
                 </div>
             </div>
         </section>
+        <!-- Contact -->
         <section id="contact">
             <h1 class="title_2">Contact Me</h1>
             <div class="contact-container">

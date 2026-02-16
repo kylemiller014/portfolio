@@ -19,7 +19,7 @@ html {
 }
 
 p {
-    color: #555;
+    color: #030000;
 }
 
 /* TRANSITION */
@@ -110,7 +110,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
+    background-color: silver;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .menu-links a:hover {
-    color: rgb(96, 145, 204);
+    color: rgb(157, 96, 204);
 }
 
 .menu-links li {
@@ -269,9 +269,47 @@ section {
     text-align: left;
 }
 
-/* PROFICIENCIES SECTION */
+/* WORK EXPERIENCE SECTION */
+#work-experience {
+    padding: 3rem 0;
+    text-align: center;
+}
 
-#proficiencies {
+.article_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.5rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    text-align: left;
+}
+
+article .icon {
+    cursor: pointer;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+article p {
+    color: #777;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* CERTIFICATIONS SECTION */
+
+#certifications {
     padding: 3rem 0;
     text-align: center;
 }
@@ -341,7 +379,7 @@ article p {
 
 .project_img {
     max-width: 100%;
-    height: auto;
+    height: 500px;
 }
 
 /* OTHER PLATFORMS SECTION */
