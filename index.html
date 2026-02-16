@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCVV5B91X6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MCVV5B91X6');
+        </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kyle Miller | Data Scientist</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mediaqueries.css">
-        <link rel="icon" href="./assets/square_logo.png" type="image/x-icon">
+        <link rel="icon" href="./assets/profile.jpeg" type="image/x-icon">
         <script type="text/javascript"
                 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
         </script>
@@ -22,7 +30,7 @@
         <nav id="nav">
             <div class="header">
                 <div class="logo">
-                    <img src="./assets/square_logo.png" alt = "Kyle Miller">
+                    <img src="./assets/profile.jpeg" alt = "Kyle Miller">
                 </div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
@@ -36,7 +44,7 @@
         <nav id="hamburger-nav">
             <div class="header">
                 <div class="logo">
-                    <img src="./assets/miller_logo.png" alt="Kyle Miller">
+                    <img src="./assets/profile.jpeg" alt="Kyle Miller">
                 </div>
                 <div class="hamburger-menu">
                     <div class="hamburger-icon" onclick="toggleMenu()">
@@ -47,7 +55,6 @@
                         <li><a href="#work-experience" onclick="toggleMenu()">Work Experience</a></li>
                         <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
                         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                        <li><a href="#other-platforms" onclick="toggleMenu()">Other Platforms</a></li>
                         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                     </div>
                 </div>
@@ -64,7 +71,7 @@
                 <h1 class="title_1">Kyle Miller</h1>
                 <p class="section_text_p2">Data Scientist</p>
                 <div class="btn_container">
-                    <button class="btn_color" onclick="location.href='./#contact'">
+                    <button class="btn_color" onclick="location.href='#contact'">
                         Contact Info
                     </button>
                 </div>
@@ -233,22 +240,26 @@
                     </form>
                 </div>
                 <div class="contact-info">
-                    <h2>Contact Information</h2>
-                    <div class="info-item">
-                        <i class="fas fa-user"></i>
-                        <p>Kyle  Miller</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Florida</p>
-                    </div>
+                    <h2>How to Reach Me:</h2>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <a href="mailto:kylemiller014@gmail.com">kylemiller014@gmail.com</a>
+                        <a href="mailto:kylemiller014@gmail.com" target="_blank">
+                            <img src="./assets/gmail.png" alt="Email Icon" class="icon contact-icon" />
+                        </a>
                     </div>
                     <div class="info-item">
                         <a href="https://www.linkedin.com/in/kyle-d-miller" target="_blank">
                             <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" />
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://github.com/kylemiller014" target="_blank">
+                            <img src="./assets/github.png" alt="GitHub Icon" class="icon contact-icon" />
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://medium.com/@kylemiller014" target="_blank">
+                            <img src="./assets/medium.png" alt="Medium Icon" class="icon contact-icon" />
                         </a>
                     </div>
                 </div>
@@ -259,5 +270,12 @@
         </footer>
     </main>
     <script src="script.js"></script>
+    <!-- Buy Me a Coffee Widget -->
+    <script data-name="BMC-Widget" data-cfasync="false" 
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
+    data-id="kylemiller014" data-description="Support me on Buy me a coffee!" 
+    data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" 
+    data-y_margin="18">
+    </script>
 </body>
 </html>

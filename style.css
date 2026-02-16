@@ -12,6 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #DBDBDB;
 }
 
 html {
@@ -62,7 +63,7 @@ nav ul li {
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 25px;
     height: auto;
 }
 
@@ -73,10 +74,10 @@ a {
 }
 
 a:hover {
-    color: rgb(96, 145, 204);
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(96, 145, 204);
+    color: rgb(232, 119, 34);
+    text-decoration: underline overline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(232, 119, 34);
 }
 
 /* HAMBURGER MENU */
@@ -128,7 +129,7 @@ a:hover {
 }
 
 .menu-links a:hover {
-    color: rgb(157, 96, 204);
+    color: rgb(232, 119, 34);
 }
 
 .menu-links li {
@@ -220,7 +221,7 @@ section {
 }
 
 .btn_color {
-    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    background: linear-gradient(90deg, #E87722, #0C2340);
     border: none;
     color: white;
     padding: 1rem 1rem;
@@ -255,7 +256,7 @@ section {
     transform: translateX(-50%);
     width: 80px;
     height: 3.5px;
-    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    background: linear-gradient(90deg, #E87722, #0C2340);
     border-radius: 1px;
 }
 
@@ -460,7 +461,7 @@ textarea {
 }
 
 .submit-button {
-    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    background: linear-gradient(90deg, #E87722, #0C2340);
     border: none;
     color: white;
     padding: 1rem 2rem;
@@ -488,8 +489,8 @@ textarea {
 }
 
 .contact-icon {
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
     margin-right: 1rem;
 }
 
