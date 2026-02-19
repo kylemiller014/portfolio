@@ -65,8 +65,11 @@
         max-width: 35px;
     }
     #profile {
-        height:72vh;
-        margin-bottom: 0;
+        flex-direction: column;
+        height:auto;
+        gap: 2rem;
+        padding: 2rem 1rem;
+        text-align: center;
     }
     .about-containers, .contact-info-upper-container,
     .btn-container {
@@ -85,8 +88,7 @@
     }
     .section_pic_container {
         width: 250px;
-        height: 250px;
-        margin: 0 auto 2rem;
+        height: auto;
     }
     .section_text {
         width: 100%;

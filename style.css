@@ -185,10 +185,10 @@ section {
     height: 85vh;
 }
 
-.section_pic_container {
+.section_pic_container img{
     display: flex;
-    height: 475px;
-    width: 475px;
+    height: auto;
+    width: 100%;
     margin: auto 0;
 }
 
