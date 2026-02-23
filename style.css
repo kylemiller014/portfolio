@@ -522,6 +522,81 @@ textarea {
     color: rgb(96, 145, 204);
 }
 
+/* WEATHER SECTION */
+#weather {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.weather_input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+}
+
+.weather_output {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.weather_output img {
+    width: 64px;
+    height: 64px;
+    margin-top: 0.5rem;
+}
+
+.weather_updated {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 0.4rem;
+}
+
+.subdetail_container:hover #weather_icon {
+    transform: scale(1.08);
+    transition: transform 0.2s ease;
+}
+
+.credit {
+    margin-top: 1.25rem;
+    padding-top: 0.75rem;
+
+    border-top: 1px solid #eee;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+
+    font-size: 0.8rem;
+    color: #777;
+    text-align: center;
+}
+
+.credit a {
+    color: #0C2340; 
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
+
+.credit_logo {
+    max-width: 110px;
+    height: auto;
+    opacity: 0.85;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.credit_logo:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
 /* FOOTER SECTION */
 
 footer {
