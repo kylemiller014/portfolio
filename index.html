@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mediaqueries.css">
         <link rel="icon" href="./assets/profile.jpeg" type="image/x-icon">
-        <!-- Need to document this better-->
     </head>
 <body>
     <header>
@@ -26,6 +25,7 @@
                 </div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#work-experience">Work Experience</a></li>
                     <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -44,6 +44,7 @@
                     </div>
                     <div class="menu-links">
                         <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
                         <li><a href="#work-experience" onclick="toggleMenu()">Work Experience</a></li>
                         <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
                         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -54,6 +55,7 @@
         </nav>
     </header>
     <main>
+        <!-- Profile -->
         <section id="profile">
             <div class="section_pic_container">
                 <img src="./assets/profile.jpeg" alt="Kyle Miller Profile Picture" width="500" height="500"/>
@@ -74,10 +76,21 @@
             <p class="section_text_p1">A Quick</p>
             <h1 class="title_2">Summary</h1>
             <div class="text_container">
-                <!-- Could probably add some more information here about what I'm, looking for or interested in-->
+            <!-- Summary -->
                 <p>Analytical professional with 5+ years of experience as a Department of Defense (DoD) contractor, specializing in quantitative data analysis and military systems assessment.</p>
-                <p> Proficient in MySQL, R, Python, and Excel to create data visualizations and deliver actionable insights. Passionate about applying data science expertise to solve complex problems.</p>
-                <p>Seeking a role in data science or data analytics that aligns with my expertise. In my free time I like to write articles for Medium.com, walk my two dogs (Banjo and Pasiley), and </p>
+                <p> Proficient in MySQL, R, Python, and Excel to create data visualizations and deliver actionable insights. Passionate about applying engineering expertise to solve complex problems.</p>
+                <p>Seeking a role in data science or data analytics that aligns with my prior experience and expertise. In my free time I like to write articles for Medium.com, walk my two dogs (Banjo and Paisley), and </p>
+                <p> watch Auburn University athletics rip my heart out in new, fun, and exciting ways.</p>
+            </div>
+        </section> 
+        <!-- Education -->
+        <section id="education">
+            <p class="section_text_p1">Formal</p>
+            <h1 class="title_2">Education</h1>
+            <img src="./assets/auburn.png" alt="Auburn University" class="education_icon"/>
+            <div class="text_container">
+                <h2>Bachelor of Science in Industrial and Systems Engineering</h2>
+                <h3>Auburn University | 2015 - 2019</h3>
             </div>
         </section> 
         <!-- Work Experience -->
@@ -146,7 +159,7 @@
                     <img src="./assets/securityPlus.png" alt="CompTIA Security Plus Icon" class="icon"/>
                     <div>
                         <h3>CompTIA Security+</h3>
-                        <h4>January 2026 - January 2029</h4>
+                        <h4>January 2023 - January 2029</h4>
                         <p>Leveraged knowledge learned via the CompTIA Security+ certification to increase my understanding and adherence to cyber security regulations.</p>
                     </div>
                 </article>
@@ -154,7 +167,7 @@
                     <img src="./assets/azureFundamentals.png" alt="Microsoft Azure Fundamentals Icon" class="icon"/>
                     <div>
                         <h3>Microsoft Azure Fundamentals</h3>
-                        <h4>January 2023</h4>
+                        <h4>January 2023 - Present</h4>
                         <p>Microsoft Azure Fundamentals provided the baseline infromation I required to begin working in an Azure Cloud enviornment.</p>
                     </div>
                 </article>
@@ -191,7 +204,7 @@
                     <div class="subdetail_container">
                         <img src="./assets/melt.png" alt="melt()" class="project_image"/>
                         <h2 class="projects_subtitle">The Dangers of Coding on an Empty Stomach: Simplifying melt() and Sorting with ggplot()</h2>
-                        <p class="projects_description">A simplistic tutorial of the melt() function using worldiwde video game sales data.</p>
+                        <p class="projects_description">A simplistic tutorial of the melt() function using worldwide video game sales data.</p>
                         <div class="btn_container">
                             <button class="btn btn_color project_btn" 
                             onclick="location.href='https://medium.com/@kylemiller014/the-dangers-of-coding-on-an-empty-stomach-simplifying-melt-and-sorting-with-ggplot-f59b9f8abe76'">View Project</button>
@@ -228,7 +241,7 @@
                     </div>
                     <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message here..." required></textarea>
                         </div>
                     <button class="submit-button">Submit</button>
                     </form>

@@ -112,11 +112,14 @@
         font-size: 0.9rem;
         line-height: 1.4;
     }
-    #about, #certifications {
+    #about, #certifications, #education {
         padding: 0 0;
     }
+    #education {
+        margin-top: 5rem;
+    }
     #certifications {
-        margin-top:5rem;
+        margin-top: 5rem;
     }
     #projects {
         padding: 5rem 0;

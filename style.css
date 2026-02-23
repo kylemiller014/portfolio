@@ -137,7 +137,7 @@ a:hover {
 }
 
 .menu-links.open {
-    max-height: 300px;
+    max-height: 325px;
 }
 
 .hamburger-icon.open span:nth-child(1) {
@@ -270,9 +270,49 @@ section {
     text-align: left;
 }
 
+/* EDUCATION SECTION */
+#education {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.title_2 {
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.title_2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3.5px;
+    background: linear-gradient(90deg, #E87722, #0C2340);
+    border-radius: 1px;
+}
+
+.text_container {
+    margin: 2rem auto;
+}
+
+.text_container p {
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.education_icon {
+    margin: 2rem auto;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 2px;
+}
+
 /* WORK EXPERIENCE SECTION */
 #work-experience {
-    padding: 3rem 0;
+    padding: 4rem 0;
     text-align: center;
 }
 
@@ -385,35 +425,6 @@ article p {
     height: auto;
     display: block;
     border-radius: 4px;
-}
-
-/* OTHER PLATFORMS SECTION */
-
-#other-platforms {
-    padding: 4rem 0;
-    text-align: center;
-}
-
-.sub-detail_container {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 1.5rem;
-    max-width: 340px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-}
-
-.sub-detail_container:hover {
-    transform: scale(1.02);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-}
-
-a.platform-link {
-    color: black;
-    text-decoration: none;
-    text-decoration-color: none;
 }
 
 /* CONTACT SECTION */
